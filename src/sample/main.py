@@ -2,7 +2,7 @@ import os
 import time
 import random
 
-timeOutSec = 10111 + random.randrange(0,1000)
+timeOutSec = 10111 + random.randrange(0,10000)
 sourcefile = "/Users/fklemke/jPyWorkspace/Controller.java"
 targetfile = str(random.randrange(0,99909)) + ".txt"
 
