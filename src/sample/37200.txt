@@ -61318,3 +61318,423 @@ public class Controller {
 ,        content = content.getNoContent();
 ,            
 ,    		nextBtn.setText("NEXT");
+    		nextBtn.setText("NEXT");
+,    public Controller() {
+,//                backBtn.setVisible(false);
+,        updateDisplay();
+}
+,                backBtn.setVisible(true);
+,    		}else{
+,            }
+import javafx.scene.control.TextArea;
+,    @FXML Label attDoc;
+,
+,
+    		nextBtn.setText("NEXT");
+,        content = roadmap.getNextElement();
+,            }
+,    }
+    }
+,            }
+,    	
+,            content = content.getPrevContent();
+    @FXML
+,    }
+,
+,        updateDisplay();
+    @FXML Button backBtn;
+,package sample;
+,    	
+,    	
+//                backBtn.setVisible(false);
+,import javafx.scene.control.Button;
+,    @FXML
+,    }
+    		}else{
+,        
+,
+,    @FXML Label titleLbl;
+    }
+,
+,
+,    	if(content.exception == true){
+
+,                noBtn.setVisible(false);
+,
+,    		}
+    }
+,    	
+,    @FXML Label attDoc;
+,    		
+        updateDisplay();
+,        
+,                yesBtn.setVisible(false);
+,    private void updateDisplay(){
+    			nextBtn.setText(content.getArrList().get(0).toString());
+,    		
+,    }
+,
+
+,//                backBtn.setVisible(false);
+,        updateDisplay();
+,    private void initialize() {
+    	}else{
+,
+,        if(content.getPrevContent() != null) {
+,        Roadmap roadmap = new Roadmap();
+    private void yesElement(){
+,                nextBtn.setVisible(false);
+,
+,                resetBtn.setVisible(false);
+import javafx.scene.control.Label;
+,    @FXML
+,    private void yesElement(){
+,        
+    private void backElement(){
+,    private void initialize() {
+,    		nextBtn.setText("NEXT");
+,            updateDisplay();
+    		nextBtn.setText("NEXT");
+,    @FXML
+,    		yesBtn.setText("YES");
+,    }
+    		yesBtn.setText("YES");
+,    }
+,            }else {
+,                resetBtn.setVisible(false);
+        }
+,    @FXML Label attDoc;
+,    }
+,
+            }else {
+,import javafx.fxml.FXML;
+,                resetBtn.setVisible(false);
+,
+    	
+,    }
+,
+,            }
+                yesBtn.setVisible(true);
+,                nextBtn.setVisible(false);
+,
+,
+    @FXML
+,            attDoc.textProperty().setValue(content.attendingDoc.toString());
+,    @FXML
+,}
+    @FXML Button backBtn;
+,    @FXML
+,    private void updateDisplay(){
+,    		if(content.arrList.size() > 1){
+    			nextBtn.setText(content.getArrList().get(0).toString());
+,
+,
+,            }
+    	
+,            content = content.getPrevContent();
+,        if(content.getPrevContent() != null) {
+,                noBtn.setVisible(true);
+    @FXML Button resetBtn;
+,                yesBtn.setVisible(false);
+,    		if(content.info == true){
+,            }else {
+        if(content.getPrevContent() != null) {
+,    			yesBtn.setText(content.getArrList().get(0).toString());
+,    @FXML
+,import javafx.fxml.FXML;
+import javafx.fxml.FXML;
+,    @FXML Label attDoc;
+,
+,            
+    @FXML Label attDoc;
+,    private void nextElement(){
+,    	}else{
+,    private void yesElement(){
+
+,            
+,        updateDisplay();
+,    private Content content;
+    }
+,    @FXML TextArea textTa;
+,
+,        Roadmap roadmap = new Roadmap();
+    private void initialize() {
+,import javafx.scene.control.Label;
+,            }else {
+,            attDoc.textProperty().setValue(content.attendingDoc.toString());
+    			yesBtn.setText(content.getArrList().get(0).toString());
+,        content = roadmap.getNextElement();
+,    }
+,        
+public class Controller {
+,        content = roadmap.getNextElement();
+,    private void resetElement(){
+,
+
+,    }
+,    	
+,            }
+        content = content.getYesContent();
+,    private Content content;
+,    @FXML TextArea textTa;
+,    			yesBtn.setText(content.getArrList().get(0).toString());
+                noBtn.setVisible(false);
+,    		yesBtn.setText("YES");
+,
+,    		if(content.info == true){
+    		yesBtn.setText("YES");
+,            content = content.getPrevContent();
+,import javafx.scene.control.Label;
+,                noBtn.setVisible(true);
+import javafx.scene.control.TextArea;
+,
+,            }else {
+,            updateDisplay();
+public class Controller {
+,            textTa.textProperty().setValue(content.textContent);
+,    @FXML
+,            }
+                nextBtn.setVisible(false);
+,        }
+,            if(content.endpoint == false){
+,    }
+    		}else{
+,    private void backElement(){
+,    private Content content;
+,    @FXML Button nextBtn;
+            }else {
+,    private Content content;
+,        content = content.getYesContent();
+,    	}
+    @FXML Button yesBtn;
+,    }
+,
+,        
+                nextBtn.setVisible(true);
+,                nextBtn.setVisible(false);
+,    }
+,    }
+    @FXML
+,    @FXML
+,public class Controller {
+,        updateDisplay();
+
+,            }
+,                yesBtn.setVisible(false);
+,    @FXML Button noBtn;
+
+,    }
+,    			yesBtn.setText(content.getArrList().get(0).toString());
+,
+            }else {
+,    private void resetElement(){
+,    		yesBtn.setText("YES");
+,        content = content.getYesContent();
+    @FXML Button nextBtn;
+,        updateDisplay();
+,    private void nextElement(){
+,    }
+import javafx.scene.control.Button;
+,    }
+,        content = content.getYesContent();
+,    private void resetElement(){
+        initialize();
+,    private void yesElement(){
+,package sample;
+,            content = content.getPrevContent();
+//                backBtn.setVisible(false);
+,        content = content.getYesContent();
+,    }
+,                resetBtn.setVisible(true);
+
+,    	}else{
+,    public Controller() {
+,    @FXML Label titleLbl;
+    }
+,    	}else{
+,
+,
+public class Controller {
+,    private void initialize() {
+,    	
+,    private Content content;
+package sample;
+,        initialize();
+,        updateDisplay();
+,    	}
+    @FXML
+,                noBtn.setVisible(true);
+,    }
+,    @FXML Button backBtn;
+
+,                resetBtn.setVisible(false);
+,                nextBtn.setVisible(false);
+,
+    	
+,                noBtn.setVisible(false);
+,
+,        content = content.getYesContent();
+    }
+,            attDoc.textProperty().setValue(content.attendingDoc.toString());
+,        updateDisplay();
+,    private void yesElement(){
+
+,        updateDisplay();
+,                nextBtn.setVisible(true);
+,            textTa.textProperty().setValue(content.textContent);
+
+,}
+,    private void nextElement(){
+,    }
+        
+,                nextBtn.setVisible(true);
+,        updateDisplay();
+,        content = roadmap.getNextElement();
+    private Content content;
+,
+,            
+,package sample;
+        updateDisplay();
+,    		if(content.arrList.size() > 1){
+,    @FXML Button noBtn;
+,        
+    		yesBtn.setText("YES");
+,        content = content.getNextContent();
+,    }
+,            }
+    private void backElement(){
+,        content = roadmap.getNextElement();
+,        Roadmap roadmap = new Roadmap();
+,
+        updateDisplay();
+,    }
+,                nextBtn.setVisible(false);
+,    @FXML
+//                backBtn.setVisible(false);
+,
+,    	}else{
+,
+
+,        Roadmap roadmap = new Roadmap();
+,                noBtn.setVisible(true);
+,    		}else{
+    @FXML TextArea textTa;
+,    }
+,    }
+,
+
+,    @FXML
+,    }
+,    @FXML Label titleLbl;
+    @FXML Button resetBtn;
+,    	
+,            }
+,    @FXML
+    			nextBtn.setText(content.getArrList().get(0).toString());
+,        content = content.getNoContent();
+,    		yesBtn.setText("YES");
+,            }
+
+,    		}else{
+,import javafx.scene.control.TextArea;
+,                nextBtn.setVisible(false);
+    private void yesElement(){
+,    }
+,    @FXML
+,                nextBtn.setVisible(true);
+        content = roadmap.getNextElement();
+,import javafx.scene.control.Button;
+,import javafx.scene.control.Button;
+,    @FXML
+    }
+,    }
+,    		
+,
+    		yesBtn.setText("YES");
+,                yesBtn.setVisible(true);
+,    }
+,    			nextBtn.setText(content.getArrList().get(0).toString());
+
+,        content = content.getYesContent();
+,    @FXML Label attDoc;
+,    	}else{
+    	
+,    @FXML
+,        
+,    		noBtn.setText("NO");
+
+,
+,        updateDisplay();
+,    			nextBtn.setText(content.getArrList().get(0).toString());
+    @FXML
+,        if(content.getPrevContent() != null) {
+,    private void updateDisplay(){
+,    	if(content.exception == true){
+import javafx.scene.control.TextArea;
+,    @FXML
+,
+,    @FXML
+                yesBtn.setVisible(true);
+,        content = content.getYesContent();
+,    @FXML Label attDoc;
+,    			yesBtn.setText(content.getArrList().get(0).toString());
+
+,    private void initialize() {
+,
+,            
+            }else {
+,    @FXML
+,    }
+,
+    		}else{
+,
+,                noBtn.setVisible(false);
+,    	
+        updateDisplay();
+,    @FXML
+,        
+,
+    public Controller() {
+,        updateDisplay();
+,            }else {
+,
+    }
+,
+,    private void backElement(){
+,                yesBtn.setVisible(false);
+    }
+,
+,        initialize();
+,        updateDisplay();
+    @FXML
+,                nextBtn.setVisible(false);
+,    @FXML
+,//                backBtn.setVisible(false);
+            attDoc.textProperty().setValue(content.attendingDoc.toString());
+,    }
+,        initialize();
+,    			noBtn.setText(content.getArrList().get(1).toString());
+        if(content.getPrevContent() != null) {
+,    		noBtn.setText("NO");
+,        initialize();
+,    }
+
+,    @FXML
+,    	
+,        updateDisplay();
+    @FXML
+,    }
+,    private void updateDisplay(){
+,    @FXML Label attDoc;
+    		}else{
+,    			noBtn.setText(content.getArrList().get(1).toString());
+,    @FXML Button nextBtn;
+,    @FXML
+    }
+,    		
+,
+,    @FXML
+    	
+,import javafx.scene.control.Label;
+,    @FXML Button resetBtn;
+,    		nextBtn.setText("NEXT");
